@@ -1,0 +1,39 @@
+package java.beginnners;
+/**
+ * Valid ways to write public static void main(String[] args)  
+ */
+public class JavaValidWaysForMain{
+
+	/**
+	 * General way to write
+	 */
+	public static void main(String... args){
+		System.out.println("Hello World");
+	}
+	
+	/**
+	 * changing the sequence of modifiers
+	 */
+	public static void main(String args[]){
+		System.out.println("Hello World");
+	}
+	
+	/**
+	 * The subscript notation in Java array can be used after type, 
+	 * before the variable or after the variable.
+	 * Way 1: public static void main(String[] args)
+	 * Way 2: public static void main(String []args)
+	 * Way 3: public static void main(String args[])
+	 */
+	public static void main(String args[]){
+		System.out.println("Hello World");
+	}
+	
+	/**
+	 * Varchar can be replaced by ... as well for command line arguments.
+	 */
+	public static void main(String args[]){
+		System.out.println("Hello World");
+	}
+	
+}
